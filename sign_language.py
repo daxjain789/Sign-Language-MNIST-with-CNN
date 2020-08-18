@@ -9,8 +9,8 @@ from tensorflow.keras.utils import to_categorical
 
 print(tf.__version__)
 
-train = pd.read_csv(r"G:\Coursera Course\Tensorflow-practice\My_practice\dataset\sign_mnist_train.csv")
-test = pd.read_csv(r"G:\Coursera Course\Tensorflow-practice\My_practice\dataset\sign_mnist_test.csv")
+train = pd.read_csv(r"sign_mnist_train.csv")
+test = pd.read_csv(r"sign_mnist_test.csv")
 print(train.head())
 
 train_labels = train['label']
